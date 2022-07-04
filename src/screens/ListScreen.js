@@ -16,7 +16,7 @@ const ListScreen = () => {
 
   return (
     <View>
-    <Text style={styles.headerStyle}>Hall of Heroes</Text>
+    <Text style={styles.headerStyle}>Adventurer Party List</Text>
     <FlatList 
       showsHorizontalScrollIndicator={false}
       keyExtractor={(partyMember) => partyMember.name}

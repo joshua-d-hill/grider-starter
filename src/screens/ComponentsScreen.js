@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
 const ComponentsScreen = () => {
-/*
+
   const greeting = 'Hail, traveler!'
   const stats = <Text style={styles.componentStyle}>Health: 120hp</Text>
 
@@ -12,14 +12,7 @@ const ComponentsScreen = () => {
     <Text style={styles.componentStyle}>No components at present...</Text>
     {stats}
   </View>
-*/
 
-const name = 'Joshua H'
-
-return <View>
-  <Text style={styles.textStyle}>Getting started with React Native!</Text>
-  <Text style={styles.textStyle2}>My name is {name}</Text>
-</View>
 };
 
 const styles = StyleSheet.create({

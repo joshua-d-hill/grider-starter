@@ -1,13 +1,13 @@
 import React from 'react';
 import { Text, StyleSheet, View } from 'react-native';
 
-const ListScreen = () => {
+const ImageScreen = () => {
 
   return <View>
-    <Text>List Screen</Text>
+    <Text>Realms of Algathar</Text>
   </View>
 };
 
 const styles = StyleSheet.create({}); 
 
-export default ListScreen;
+export default ImageScreen;
